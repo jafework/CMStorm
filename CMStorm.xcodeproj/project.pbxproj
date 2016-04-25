@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CAA10101933ACC300CD5D52 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAA100F1933ACC300CD5D52 /* Cocoa.framework */; };
+		7CAA101A1933ACC300CD5D52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CAA10181933ACC300CD5D52 /* InfoPlist.strings */; };
+		7CAA101C1933ACC300CD5D52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA101B1933ACC300CD5D52 /* main.m */; };
+		7CAA10201933ACC300CD5D52 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7CAA101E1933ACC300CD5D52 /* Credits.rtf */; };
+		7CAA10231933ACC300CD5D52 /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA10221933ACC300CD5D52 /* CMAppDelegate.m */; };
+		7CAA10261933ACC300CD5D52 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CAA10241933ACC300CD5D52 /* MainMenu.xib */; };
+		7CAA10361933B05600CD5D52 /* CMMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA10351933B05600CD5D52 /* CMMainView.m */; };
+		7CAA10381933B29200CD5D52 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAA10371933B29200CD5D52 /* IOKit.framework */; };
+		7CAA103A1933B29800CD5D52 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAA10391933B29800CD5D52 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CAA100B1933ACC300CD5D52 /* CMStorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMStorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAA100F1933ACC300CD5D52 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7CAA10121933ACC300CD5D52 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7CAA10131933ACC300CD5D52 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7CAA10141933ACC300CD5D52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7CAA10171933ACC300CD5D52 /* CMStorm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMStorm-Info.plist"; sourceTree = "<group>"; };
+		7CAA10191933ACC300CD5D52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CAA101B1933ACC300CD5D52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CAA101D1933ACC300CD5D52 /* CMStorm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CMStorm-Prefix.pch"; sourceTree = "<group>"; };
+		7CAA101F1933ACC300CD5D52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7CAA10211933ACC300CD5D52 /* CMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAppDelegate.h; sourceTree = "<group>"; };
+		7CAA10221933ACC300CD5D52 /* CMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
+		7CAA10251933ACC300CD5D52 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7CAA10341933B05600CD5D52 /* CMMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMainView.h; sourceTree = "<group>"; };
+		7CAA10351933B05600CD5D52 /* CMMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMainView.m; sourceTree = "<group>"; };
+		7CAA10371933B29200CD5D52 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		7CAA10391933B29800CD5D52 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CAA10081933ACC300CD5D52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAA103A1933B29800CD5D52 /* Carbon.framework in Frameworks */,
+				7CAA10381933B29200CD5D52 /* IOKit.framework in Frameworks */,
+				7CAA10101933ACC300CD5D52 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CAA10001933ACC300CD5D52 = {
+			isa = PBXGroup;
+			children = (
+				7CAA10151933ACC300CD5D52 /* CMStorm */,
+				7CAA100E1933ACC300CD5D52 /* Frameworks */,
+				7CAA100C1933ACC300CD5D52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CAA100C1933ACC300CD5D52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CAA100B1933ACC300CD5D52 /* CMStorm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CAA100E1933ACC300CD5D52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CAA10111933ACC300CD5D52 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CAA10111933ACC300CD5D52 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CAA100F1933ACC300CD5D52 /* Cocoa.framework */,
+				7CAA10391933B29800CD5D52 /* Carbon.framework */,
+				7CAA10371933B29200CD5D52 /* IOKit.framework */,
+				7CAA10121933ACC300CD5D52 /* AppKit.framework */,
+				7CAA10131933ACC300CD5D52 /* CoreData.framework */,
+				7CAA10141933ACC300CD5D52 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7CAA10151933ACC300CD5D52 /* CMStorm */ = {
+			isa = PBXGroup;
+			children = (
+				7CAA10211933ACC300CD5D52 /* CMAppDelegate.h */,
+				7CAA10221933ACC300CD5D52 /* CMAppDelegate.m */,
+				7CAA10241933ACC300CD5D52 /* MainMenu.xib */,
+				7CAA10161933ACC300CD5D52 /* Supporting Files */,
+				7CAA10341933B05600CD5D52 /* CMMainView.h */,
+				7CAA10351933B05600CD5D52 /* CMMainView.m */,
+			);
+			path = CMStorm;
+			sourceTree = "<group>";
+		};
+		7CAA10161933ACC300CD5D52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CAA10171933ACC300CD5D52 /* CMStorm-Info.plist */,
+				7CAA10181933ACC300CD5D52 /* InfoPlist.strings */,
+				7CAA101B1933ACC300CD5D52 /* main.m */,
+				7CAA101D1933ACC300CD5D52 /* CMStorm-Prefix.pch */,
+				7CAA101E1933ACC300CD5D52 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CAA100A1933ACC300CD5D52 /* CMStorm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CAA10291933ACC300CD5D52 /* Build configuration list for PBXNativeTarget "CMStorm" */;
+			buildPhases = (
+				7CAA10071933ACC300CD5D52 /* Sources */,
+				7CAA10081933ACC300CD5D52 /* Frameworks */,
+				7CAA10091933ACC300CD5D52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMStorm;
+			productName = CMStorm;
+			productReference = 7CAA100B1933ACC300CD5D52 /* CMStorm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CAA10021933ACC300CD5D52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Joseph Afework";
+			};
+			buildConfigurationList = 7CAA10051933ACC300CD5D52 /* Build configuration list for PBXProject "CMStorm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7CAA10001933ACC300CD5D52;
+			productRefGroup = 7CAA100C1933ACC300CD5D52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CAA100A1933ACC300CD5D52 /* CMStorm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CAA10091933ACC300CD5D52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAA101A1933ACC300CD5D52 /* InfoPlist.strings in Resources */,
+				7CAA10201933ACC300CD5D52 /* Credits.rtf in Resources */,
+				7CAA10261933ACC300CD5D52 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CAA10071933ACC300CD5D52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAA101C1933ACC300CD5D52 /* main.m in Sources */,
+				7CAA10231933ACC300CD5D52 /* CMAppDelegate.m in Sources */,
+				7CAA10361933B05600CD5D52 /* CMMainView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CAA10181933ACC300CD5D52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CAA10191933ACC300CD5D52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7CAA101E1933ACC300CD5D52 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CAA101F1933ACC300CD5D52 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7CAA10241933ACC300CD5D52 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CAA10251933ACC300CD5D52 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CAA10271933ACC300CD5D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7CAA10281933ACC300CD5D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7CAA102A1933ACC300CD5D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMStorm/CMStorm-Prefix.pch";
+				INFOPLIST_FILE = "CMStorm/CMStorm-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7CAA102B1933ACC300CD5D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMStorm/CMStorm-Prefix.pch";
+				INFOPLIST_FILE = "CMStorm/CMStorm-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CAA10051933ACC300CD5D52 /* Build configuration list for PBXProject "CMStorm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAA10271933ACC300CD5D52 /* Debug */,
+				7CAA10281933ACC300CD5D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CAA10291933ACC300CD5D52 /* Build configuration list for PBXNativeTarget "CMStorm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAA102A1933ACC300CD5D52 /* Debug */,
+				7CAA102B1933ACC300CD5D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CAA10021933ACC300CD5D52 /* Project object */;
+}
